@@ -1,19 +1,19 @@
 import React from "react"
 import './App.css';
 import { ThemeProvider } from "styled-components";
-import Navbar from './components/Navbar/Navbar.jsx';
+import Navbar from '.././src/Components/Navbar/Navbar.jsx';
 import { useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import styled from "styled-components";
 import { darkTheme, lightTheme } from './utils/Themes.js';
-import Hero from './components/HeroSection/Hero.jsx';
-import Skills from './components/Skills/Skills.jsx';
-import Projects from "./components/Project/Project.jsx";
-import Footer from './components/Footer/Footer.jsx';
-import Contact from './components/Contact/Contact.jsx';
-import Education from './components/Education/Education.jsx';
-import ProjectDetails from "./components/ProjectDetails/ProjectDetails.jsx";
-import Experience from './components/Experiences/Experience.jsx';
+import Hero from '.././src/Components/HeroSection/Hero.jsx';
+import Skills from '.././src/Components/Skills/Skills.jsx';
+import Projects from "../src/Components/Project/Project.jsx";
+import Footer from '../src/Components/Footer/Footer.jsx';
+import Contact from '../src/Components/Contact/Contact.jsx';
+import Education from '../src/Components/Education/Education.jsx';
+import ProjectDetails from "./Components/ProjectDetails/ProjectDetails.jsx";
+import Experience from '../src/Components/Experiences/Experience.jsx';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
