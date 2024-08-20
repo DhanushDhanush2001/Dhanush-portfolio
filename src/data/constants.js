@@ -3,6 +3,7 @@ import ApolloImage from '../Images/Apollo.jpg';
 import MadrasImage from '../Images/Madrasuniversity.jpg';
 import Project1 from '../Images/Project1.jpg';
 import Project2 from '../Images/Project2.jpg';
+import Postman from '../Images/Postman.png';
  
 
 
@@ -95,8 +96,7 @@ export const Bio = {
         },
         {
           name: "Postman",
-          image:
-            "http://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+          image: Postman,
         },
 
       ],
